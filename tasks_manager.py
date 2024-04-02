@@ -30,12 +30,10 @@ while True :
     choix = input("Choisissez une option parmi ces quatres : ")
 
     if choix == "1":
-        nombres = input("saisir le nombre de tâches à ajouter : ")
-        nombres = int(nombres)
+        nombres = int(input("saisir le nombre de tâches à ajouter : "))
         for nombre in range(0, nombres):
             tache = input("Entrez une tâche à ajouter: ")
             ajouter_tache(tache)
-            nombres = nombres + nombres
     elif choix == "2":
         nombres = int(input("Saisir le nombre de tâches à supprimer : "))
         for nombre in range(0, nombres):
