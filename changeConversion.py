@@ -54,7 +54,10 @@ def afficheResultat(montant, deviseSource, deviseCible, montantConverti):
 CODES_DEVISES = {
     "AED": "Dirhan des Emirates arabes unis",
     "AOA": "Kwanza angolais",
+    "BIF": "Franc burundais",
     "CDF": "Franc congolais",
+    "RWF": "Franc rwandais",
+    "TZS": "Shilling tanzanien",
     "USD": "Dollar américan",
     "ZWL": "Dollar zimbabwéen",
     }
